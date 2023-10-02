@@ -40,8 +40,10 @@ const crawler = new HttpCrawler({
     },
 });
 
-await crawler.run([
-    'http://www.example.com/page-1',
+'await crawler.run([
+'    'http://www.example.com/page-1',
     'http://www.example.com/page-2',
 ]);
 ```
+crawler.run
+crawler.run.json
